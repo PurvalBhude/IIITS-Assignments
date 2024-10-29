@@ -1,0 +1,4 @@
+for 1 time touch velocity is 22.135944
+for 2 time touch velocity is 11.067972
+for 3 time touch velocity is 5.533986
+total distance covered  after touching the ground 3 times is 165.625000

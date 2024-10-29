@@ -1,0 +1,10 @@
+Enter P:4
+Enter Q:6
+Enter R:5
+Enter S:2
+1)X = P + Q / 4 * S/ 3 + Q IS EQUAL TO 10.666667
+2)X = X = R + S / 4 * Q / 3 + S IS EQUAL TO 8.000000
+3)X = X = (int) R / P * Q / 3 IS EQUAL TO 2.000000
+4)X = P + Q / 4 * S/ 3 + Q IS EQUAL TO 0.000000
+5)X = 10 - 5 - 7 / 4 * 4 IS EQUAL TO 1.000000
+6)X = 24/(1 + 2 + 4/5 + 6 + 31) IS EQUAL TO 1.000000

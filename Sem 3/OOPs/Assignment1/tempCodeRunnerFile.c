@@ -1,0 +1,1 @@
+ Calculate salary (basic + (basic * allowance percentage))\

@@ -1,0 +1,1 @@
+Value of 27 fahreheit in degree celsius is -2.777778

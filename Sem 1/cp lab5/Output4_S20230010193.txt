@@ -1,0 +1,3 @@
+Enter Number: 9
+Sum is 45
+Sum is 362880

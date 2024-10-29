@@ -1,0 +1,1 @@
+The result for above expression is 4392.880859

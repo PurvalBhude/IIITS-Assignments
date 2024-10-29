@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 12px; }
+    .title { font-size: 20px; font-weight: bold; }
+    .subtitle { font-size: 16px; font-weight: bold; }
+    .component { font-size: 14px; font-weight: bold; }
+  </style>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" class="title">Detailed Architecture: Customer App, Admin App, and Website</text>
+
+  <!-- Customer App -->
+  <rect x="20" y="60" width="220" height="280" fill="#ADD8E6" stroke="#000000" />
+  <text x="130" y="80" text-anchor="middle" class="subtitle">Customer App/Website</text>
+  
+  <rect x="30" y="100" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="130" y="115" text-anchor="middle" class="component">UI Components</text>
+  <text x="40" y="130" dominant-baseline="hanging">
+    <tspan x="40" dy="0">- Complaint Form</tspan>
+    <tspan x="40" dy="15">- File Upload</tspan>
+    <tspan x="40" dy="15">- Complaint Tracking</tspan>
+  </text>
+
+  <rect x="30" y="180" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="130" y="195" text-anchor="middle" class="component">AI Chatbot Interface</text>
+  <text x="40" y="210" dominant-baseline="hanging">
+    <tspan x="40" dy="0">- User Interaction</tspan>
+    <tspan x="40" dy="15">- Complaint Classification</tspan>
+    <tspan x="40" dy="15">- Follow-up Questions</tspan>
+  </text>
+
+  <rect x="30" y="260" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="130" y="275" text-anchor="middle" class="component">Feedback System</text>
+  <text x="40" y="290" dominant-baseline="hanging">
+    <tspan x="40" dy="0">- Rating Submission</tspan>
+    <tspan x="40" dy="15">- Text Feedback</tspan>
+    <tspan x="40" dy="15">- Satisfaction Survey</tspan>
+  </text>
+
+  <!-- Admin App -->
+  <rect x="560" y="60" width="220" height="280" fill="#FFB6C1" stroke="#000000" />
+  <text x="670" y="80" text-anchor="middle" class="subtitle">Admin App/Website</text>
+  
+  <rect x="570" y="100" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="670" y="115" text-anchor="middle" class="component">Dashboard</text>
+  <text x="580" y="130" dominant-baseline="hanging">
+    <tspan x="580" dy="0">- Real-time Complaint Overview</tspan>
+    <tspan x="580" dy="15">- Performance Metrics</tspan>
+    <tspan x="580" dy="15">- Alerts and Notifications</tspan>
+  </text>
+
+  <rect x="570" y="180" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="670" y="195" text-anchor="middle" class="component">Resource Management</text>
+  <text x="580" y="210" dominant-baseline="hanging">
+    <tspan x="580" dy="0">- Staff Allocation</tspan>
+    <tspan x="580" dy="15">- Equipment Tracking</tspan>
+    <tspan x="580" dy="15">- Maintenance Scheduling</tspan>
+  </text>
+
+  <rect x="570" y="260" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="670" y="275" text-anchor="middle" class="component">Analytics and Reporting</text>
+  <text x="580" y="290" dominant-baseline="hanging">
+    <tspan x="580" dy="0">- Trend Analysis</tspan>
+    <tspan x="580" dy="15">- Performance Reports</tspan>
+    <tspan x="580" dy="15">- AI Model Insights</tspan>
+  </text>
+
+  <!-- Backend System -->
+  <rect x="290" y="60" width="220" height="480" fill="#90EE90" stroke="#000000" />
+  <text x="400" y="80" text-anchor="middle" class="subtitle">Backend System</text>
+  
+  <rect x="300" y="100" width="200" height="90" fill="#FFFFFF" stroke="#000000" />
+  <text x="400" y="115" text-anchor="middle" class="component">API Gateway</text>
+  <text x="310" y="130" dominant-baseline="hanging">
+    <tspan x="310" dy="0">- Request Routing</tspan>
+    <tspan x="310" dy="15">- Authentication</tspan>
+    <tspan x="310" dy="15">- Rate Limiting</tspan>
+    <tspan x="310" dy="15">- Load Balancing</tspan>
+  </text>
+
+  <rect x="300" y="200" width="200" height="90" fill="#FFFFFF" stroke="#000000" />
+  <text x="400" y="215" text-anchor="middle" class="component">AI/ML Processing</text>
+  <text x="310" y="230" dominant-baseline="hanging">
+    <tspan x="310" dy="0">- Complaint Classification</tspan>
+    <tspan x="310" dy="15">- Sentiment Analysis</tspan>
+    <tspan x="310" dy="15">- Priority Assessment</tspan>
+    <tspan x="310" dy="15">- Predictive Analytics</tspan>
+  </text>
+
+  <rect x="300" y="300" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="400" y="315" text-anchor="middle" class="component">Database</text>
+  <text x="310" y="330" dominant-baseline="hanging">
+    <tspan x="310" dy="0">- Complaint Records</tspan>
+    <tspan x="310" dy="15">- User Profiles</tspan>
+    <tspan x="310" dy="15">- Performance Data</tspan>
+  </text>
+
+  <rect x="300" y="380" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="400" y="395" text-anchor="middle" class="component">File Storage</text>
+  <text x="310" y="410" dominant-baseline="hanging">
+    <tspan x="310" dy="0">- Image/Video Storage</tspan>
+    <tspan x="310" dy="15">- Document Management</tspan>
+    <tspan x="310" dy="15">- Backup and Recovery</tspan>
+  </text>
+
+  <rect x="300" y="460" width="200" height="70" fill="#FFFFFF" stroke="#000000" />
+  <text x="400" y="475" text-anchor="middle" class="component">External Integrations</text>
+  <text x="310" y="490" dominant-baseline="hanging">
+    <tspan x="310" dy="0">- Rail Madad System</tspan>
+    <tspan x="310" dy="15">- Maintenance Systems</tspan>
+    <tspan x="310" dy="15">- Notification Services</tspan>
+  </text>
+
+  <!-- Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" />
+    </marker>
+  </defs>
+  
+  <!-- Customer App to Backend -->
+  <line x1="240" y1="200" x2="290" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Backend to Customer App -->
+  <line x1="290" y1="220" x2="240" y2="220" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Admin App to Backend -->
+  <line x1="560" y1="200" x2="510" y2="200" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+  
+  <!-- Backend to Admin App -->
+  <line x1="510" y1="220" x2="560" y2="220" stroke="#000" stroke-width="2" marker-end="url(#arrowhead)" />
+</svg>

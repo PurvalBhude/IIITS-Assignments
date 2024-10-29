@@ -1,0 +1,9 @@
+Enter integer:22
+Enter float:2.30
+Enter charater:p
+Enter string:Purval
+
+entered integer is 22
+entered float is 2.300000
+entered character is p
+entered string is Purval
